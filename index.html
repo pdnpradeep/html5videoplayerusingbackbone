@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5 Video Player Design Using Backbone and requirejs</title>
+    <link type="text/css" rel="stylesheet"  href="css/player.css"/>
+     <script type="text/javascript" data-main="js/config" src="externaljs/require.js"></script>
+</head>
+<body>
+<h1 style="background:#3faae7;text-align: center;">HTML5 Video Player Design Using Backbone and requirejs</h1>
+<div id="player">
+    
+    <div id="vide-container">    
+        <video id="video" poster="img/thumbnail.png">
+            <source src="videos/sample.mp4"/>
+        </video>
+    </div>
+<div id="mycontrols">
+    <div id="pbar-container">
+        <div id=pbar>
+        
+        </div>
+    </div>
+    
+    <div id="button-container">
+        <img id="playbutton" src="img/play.png" alt="playbutton"/>
+        <div id="time-container">
+            0.00/0.00
+        </div>
+        <img id="soundbutton" src="img/sound.png" alt="soundbutton"/>
+        <div id="sbar-container">
+            <div id="sbar"></div>
+        </div>
+        <img id="fullscreenbutton" src="img/fullscreen.png" alt="fullscreenbutton"/>
+    </div>
+</div>
+
+</div>
+
+
+</body>
+</html>
